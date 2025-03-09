@@ -38,4 +38,32 @@ let myObj ={
 const myfunction = function(){
     console.log("hello chai aur codeers")
 }
-// type of function is object function
+// typeof function is object function
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// types of memory used for storing data
+
+
+// 1.Stack (Primitive),2.Heap (Non - Primitive)
+
+// when ever something is stored in stack then we will get a copy and when ever we store something in heap then we will get a reference
+
+// example of stack memory
+let myyt = "rajshubham "
+let anotheryt =myyt
+anotheryt = "chai aur code"
+console.log(myyt)
+console.log(anotheryt)
+
+
+// example of heap memory 
+
+let myObject1 ={
+    name:"shubham",
+    email:"rajshubham9934"
+}
+let myObj2 = myObject1;
+myObj2.email ="retashk008"
+console.log(myObject1)
+console.log(myObj2)
